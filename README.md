@@ -22,7 +22,7 @@
 - Exer 07 Contatos – ArrayList
 
 
-### Apontamentos
+# Apontamentos
 
 **Objetos StringBuilder são como objetos String, exceto que eles podem ser modificados . Internamente, esses objetos são tratados como matrizes de comprimento variável que contêm uma sequência de caracteres. A qualquer momento, o comprimento e o conteúdo da sequência podem ser alterados por meio de invocações de métodos.**
 
