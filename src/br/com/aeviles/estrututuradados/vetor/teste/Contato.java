@@ -55,6 +55,8 @@ public class Contato {
 		return Objects.hash(email, nome, telefone);
 	}
 
+	
+	//compara referencia de memória e também atributos
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -67,6 +69,7 @@ public class Contato {
 		return Objects.equals(email, other.email) && Objects.equals(nome, other.nome)
 				&& Objects.equals(telefone, other.telefone);
 	}
+
 
 	
 	
