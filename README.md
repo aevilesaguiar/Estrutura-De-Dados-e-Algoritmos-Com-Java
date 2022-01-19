@@ -1,27 +1,31 @@
-# Estrutura de Dadose Algoritmos com Java- Vetores(Arrays):Introdução
+# Estrutura de Dados com Java - Curso Loiane 
 
-Curso Loiane Groner - Baseado o livro :
-Aprendendo algoritmos e estruturas de dados JavaScrip
+## Vetores, Arrays e Listas (03:41:58)
+- Aula 01 - Introdução a Estrutura de Dados e Algoritmos✅ 
+- Aula 02 -Vetores e Arrays: Introdução✅ 
+- Aula 03 - Adicionar elemento no final do vetor✅ 
+- Aula 04 -Verificar tamanho e imprimir elementos do vetor✅ 
+- Aula 05 -Obter elemento de uma posição✅ 
+- Aula 06 - Verificar se elemento existe no vetor (busca sequencial)✅
+- Aula 07 -Adicionar elemento em qualquer posição✅
+- Aula 08 -Aumentar capacidade do vetor✅
+- Aula 09 -Remover elemento do vetor✅
+- Aula 10 -Generalizar o tipo do vetor✅
+- Configurar o tipo do vetor dinamicamente (Generics)
+- API Java: ArrayList
+- Exer 01 método contém
+- Exer 02 método último índice
+- Exer 03 método remove elemento
+- Exer 04 método obtém (get)
+- Exer 05 método remover todos elementos (clear)
+- Exer 06 Contatos – Lista
+- Exer 07 Contatos – ArrayList
 
-## Classe Vetor
-- Definição
-- Adicionar elemento final do vetor
-- Verificar quantidade de elemento no vetor
-- Imprimir elementos do vetor
-- Obter elementos de uma posição
-- Verificar se elemento existe no vetor
-- Adicionar elemento em qualquer posição
-- Adicionar mais capacidade ao vetor
-- Remover elemento do vetor
-- Generalizar o tipo de elementos
-- Definindo o tipo do vetor dinamicamente
-- API Java ArrayList
 
+### Apontamentos
 
-## O que é um vetor? O que ele armazena?
-Um vetor (ou array) é a estrutura de dados mais simples que existe.
-Um vetor armazena uma sequencia de valores onde todos são do mesmo tipo.
-Você pode ter vetor de Boolean, de inteiros, de doubles , de String e outros...
+**Objetos StringBuilder são como objetos String, exceto que eles podem ser modificados . Internamente, esses objetos são tratados como matrizes de comprimento variável que contêm uma sequência de caracteres. A qualquer momento, o comprimento e o conteúdo da sequência podem ser alterados por meio de invocações de métodos.**
+
 
 
 
