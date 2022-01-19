@@ -41,22 +41,22 @@ Ex:
   
   - Percorrendo uma lista
   
- **for (String aula : aulas) {
-    System.out.println("Aula: " + aula);
+ **for (String aula : aulas) {  
+    System.out.println("Aula: " + aula);  
 }**
  - Acessando elementos(o método utilizado é o get)
   **String primeiraAula = aulas.get(0);**
   
  - Usando o mesmo método para percorrer a lista toda
-  **for (int i = 0; i < aulas.size(); i++) {
-    System.out.println("aula : " + aulas.get(i));
-}**
+  **for (int i = 0; i < aulas.size(); i++) {    
+    System.out.println("aula : " + aulas.get(i));    
+}**  
                                                         
 - Forma de percorrer elementos java 08
                                                         
-**aulas.forEach(aula -> {
-    System.out.println("Percorrendo:");
-    System.out.println("Aula " + aula);
+**aulas.forEach(aula -> {  
+    System.out.println("Percorrendo:");  
+    System.out.println("Aula " + aula);  
 });**
 
 - Ordenando a lista
