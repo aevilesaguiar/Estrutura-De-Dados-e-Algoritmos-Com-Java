@@ -27,6 +27,50 @@
 **Objetos StringBuilder são como objetos String, exceto que eles podem ser modificados . Internamente, esses objetos são tratados como matrizes de comprimento variável que contêm uma sequência de caracteres. A qualquer momento, o comprimento e o conteúdo da sequência podem ser alterados por meio de invocações de métodos.**
 
 
+### API de Collections
+
+** ArrayList aparece com maior frequência.**
+
+Ex:
+**ArrayList<String> aulas = new ArrayList<>();**
+  
+- Adicionando itens (em sequencia)
+   aulas.add(aula1);
+- Removendo elementos
+  aulas.remove(0);
+  
+  - Percorrendo uma lista
+  
+  for (String aula : aulas) {
+    System.out.println("Aula: " + aula);
+}
+ - Acessando elementos(o método utilizado é o get)
+  String primeiraAula = aulas.get(0);
+  
+ - Usando o mesmo método para percorrer a lista toda
+  for (int i = 0; i < aulas.size(); i++) {
+    System.out.println("aula : " + aulas.get(i));
+}
+                                                        
+- Forma de percorrer elementos java 08
+                                                        
+aulas.forEach(aula -> {
+    System.out.println("Percorrendo:");
+    System.out.println("Aula " + aula);
+});
+
+- Ordenando a lista
+  
+  Collections.sort(aulas);
+  
+  
+  
+  
+ 
+  
+  
+ 
+  
 
 ![819px-Java util Collection_hierarchy svg](https://user-images.githubusercontent.com/52088444/150176834-9cf2f3ee-0885-4a85-9b5d-9e00590a8d49.png)
 
