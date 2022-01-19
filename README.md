@@ -35,33 +35,33 @@ Ex:
 **ArrayList<String> aulas = new ArrayList<>();**
   
 - Adicionando itens (em sequencia)
-   aulas.add(aula1);
+   **aulas.add(aula1);**
 - Removendo elementos
-  aulas.remove(0);
+  **aulas.remove(0);**
   
   - Percorrendo uma lista
   
-  for (String aula : aulas) {
+ **for (String aula : aulas) {
     System.out.println("Aula: " + aula);
-}
+}**
  - Acessando elementos(o método utilizado é o get)
-  String primeiraAula = aulas.get(0);
+  **String primeiraAula = aulas.get(0);**
   
  - Usando o mesmo método para percorrer a lista toda
-  for (int i = 0; i < aulas.size(); i++) {
+  **for (int i = 0; i < aulas.size(); i++) {
     System.out.println("aula : " + aulas.get(i));
-}
+}**
                                                         
 - Forma de percorrer elementos java 08
                                                         
-aulas.forEach(aula -> {
+**aulas.forEach(aula -> {
     System.out.println("Percorrendo:");
     System.out.println("Aula " + aula);
-});
+});**
 
 - Ordenando a lista
   
-  Collections.sort(aulas);
+  **Collections.sort(aulas);**
   
   
   
