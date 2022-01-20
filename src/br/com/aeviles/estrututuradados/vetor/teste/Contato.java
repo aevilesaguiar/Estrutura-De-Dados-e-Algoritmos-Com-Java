@@ -14,7 +14,7 @@ public class Contato {
 
 	}
 	
-	Contato(String nome, String telefone, String email){
+	public Contato(String nome, String telefone, String email){
 		super();
 		this.nome=nome;
 		this.telefone=telefone;

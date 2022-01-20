@@ -2,29 +2,26 @@ package br.com.aeviles.estrututuradados.vetor;
 
 import java.lang.reflect.Array;
 
+
 public class Lista<T> {
-	private T[] elementos; //
+
+	private T[] elementos; 
 	private int tamanho;
 
 	public Lista(int capacidade){
-		this.elementos = (T[])new Object[capacidade];
-		this.tamanho = 0;
-	}
-	
-	
-	public Lista(int capacidade, Class<T> tipoClasse){
-		this.elementos = (T[])Array.newInstance(tipoClasse, capacidade);//USAR REFLEXION
+		this.elementos = (T[]) new Object[capacidade]; //solução do livro effective Java
 		this.tamanho = 0;
 	}
 	
 	public Lista(){
-		
+		this(10);
+	}
+	
+	public Lista(int capacidade, Class<T> tipoClasse){
+		this.elementos = (T[]) Array.newInstance(tipoClasse, capacidade);
+		this.tamanho = 0;
 	}
 
-		
-
-	
-	
 	public boolean adiciona(T elemento) {
 		this.aumentaCapacidade();
 		if (this.tamanho < this.elementos.length){
@@ -58,17 +55,17 @@ public class Lista<T> {
 	
 	private void aumentaCapacidade(){
 		if (this.tamanho == this.elementos.length){
-			T[] elementosNovos = (T[])new Object[this.elementos.length * 2];
+			T[] elementosNovos = (T[]) new Object[this.elementos.length * 2];
 			for (int i=0; i<this.elementos.length; i++){
 				elementosNovos[i] = this.elementos[i];
 			}
 			this.elementos = elementosNovos;
 		}
 	}
-	public T obtem(int posicao) {
+	
+	public T obtem(int posicao){
 		return this.busca(posicao);
 	}
-	
 	
 	public T busca(int posicao){
 		if (!(posicao >= 0 && posicao < tamanho)){
@@ -86,28 +83,26 @@ public class Lista<T> {
 		return -1;
 	}
 	
-	public int ultimoIndice(T elemento) {
-			
-		for (int i=this.tamanho-1; i>=0; i--){//se o tamanho do vetor quer dizer que o indce vai de 0 até 4
+	public int ultimoIndice(T elemento){
+		
+		for (int i=this.tamanho-1; i>=0; i--){
 			if (this.elementos[i].equals(elemento)){
 				return i;
 			}
-		}	
-		
+		}
 		return -1;
 	}
 	
-	//Exercicio lista
-	public boolean contem(T elemento) {//T é do método generics
-		/*
-		 * int pos = busca(elemento);
-		 * if(pos>-1){
-		 * return true;
-		 * }
-		 * return false;*/
+	public boolean contem(T elemento){
 		
+		/*int pos = busca(elemento);
+		if (pos > -1){
+			return true;
+		}
 		
-		return busca(elemento)>-1;
+		return false;*/
+		
+		return busca(elemento) > -1; //>=0
 	}
 	
 	// B D E F F -> posição a ser removida é 1 (G)
@@ -116,39 +111,34 @@ public class Lista<T> {
 	// vetor[2] = vetor[3]
 	// vetor[3] = vetor[4]
 	public void remove(int posicao){
-		//verificar se a posição é válida ou não
 		if (!(posicao >= 0 && posicao < tamanho)){
 			throw new IllegalArgumentException("Posição inválida");
 		}
-		//fazer um for para empurrar os elementos
 		for (int i=posicao; i<this.tamanho-1; i++){
 			this.elementos[i] = this.elementos[i+1];
 		}
-		this.tamanho--;//por que o vetor vai passar de 5 para 4
+		this.tamanho--;
 	}
 	
-	//método remove
-	public void remove(T elemento) {
+	public void remove(T elemento){
 		int pos = this.busca(elemento);
-		if(pos>-1) {
+		if (pos > -1){
 			this.remove(pos);
 		}
 	}
 	
-	public void limpar() {
-		/*//OPÇÃO 1
-		this.elementos=(T[])new Object[this.elementos.length]; 
+	public void limpar(){
+		//opção 1
+		//this.elementos = (T[]) new Object[this.elementos.length];
 		
-		//OPÇÃO2
-		this.tamanho=0;//resseta os elementos
-		*/
+		//opção 2
+		//this.tamanho = 0;
+		
 		//opção 3
-		
-		for(int i =0; i<this.tamanho;i++) {
-			this.elementos[i]=null;
+		for (int i=0; i<this.tamanho; i++){
+			this.elementos[i] = null;
 		}
-		
-		this.tamanho=0;
+		this.tamanho = 0;
 	}
 	
 	public int tamanho(){
@@ -174,6 +164,4 @@ public class Lista<T> {
 		
 		return s.toString();
 	}
-	
-
 }
