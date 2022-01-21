@@ -34,7 +34,7 @@ public class Lista<T> {
 	
 	// 0 1 2 3 4 5 6 = tamanho é 5
 	// B C E F G + +
-	//
+	//Adiciona em qualquer posição
 	public boolean adiciona(int posicao, T elemento){
 		
 		if (!(posicao >= 0 && posicao < tamanho)){
