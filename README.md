@@ -1,6 +1,6 @@
 # Estrutura de Dados com Java - Curso Loiane 
 
-## Vetores, Arrays e Listas (03:41:58)
+## Vetores, Arrays e Listas 
 - Aula 01 - Introdução a Estrutura de Dados e Algoritmos✅ 
 - Aula 02 -Vetores e Arrays: Introdução✅ 
 - Aula 03 - Adicionar elemento no final do vetor✅ 
@@ -22,12 +22,12 @@
 - Exer 07 Contatos – ArrayList✅
 
 
-## Pilhas (02:03:13)
-- Pilhas: Introdução
-- Empilhar elemento (push)
-- Verificar se pilha está vazia
-- Espiar/Verificar elemento do topo (peek)
-- Desempilhar elemento (pop)
+## Pilhas 
+- Aula 13-Pilhas: Introdução✅
+- Aula 14- Empilhar elemento (push)✅
+- Aula 15 -Verificar se pilha está vazia✅
+- Aula 16 -Espiar/Verificar elemento do topo (peek)✅
+- Aula 17 -Desempilhar elemento (pop)✅
 - API Java: Stack
 - Empilha e desempilha
 - Pilhas par ou ímpar
