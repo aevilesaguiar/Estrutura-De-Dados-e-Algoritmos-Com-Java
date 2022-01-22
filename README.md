@@ -79,9 +79,7 @@ Ex:
 - Ordenando a lista
   
   **Collections.sort(aulas);**
-  
-  
-  
+
   
  
   
@@ -90,4 +88,11 @@ Ex:
   
 
 ![819px-Java util Collection_hierarchy svg](https://user-images.githubusercontent.com/52088444/150176834-9cf2f3ee-0885-4a85-9b5d-9e00590a8d49.png)
+  
+    
+### Pilhas
+  
+  
+  https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.
+  
 
