@@ -18,8 +18,8 @@
 - Exer 03 método remove elemento✅
 - Exer 04 método obtém (get)✅
 - Exer 05 método remover todos elementos (clear)✅
-- Exer 06 Contatos – Lista
-- Exer 07 Contatos – ArrayList
+- Exer 06 Contatos – Lista✅
+- Exer 07 Contatos – ArrayList✅
 
 
 # Apontamentos
