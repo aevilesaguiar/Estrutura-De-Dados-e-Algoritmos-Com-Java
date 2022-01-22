@@ -22,6 +22,23 @@
 - Exer 07 Contatos – ArrayList✅
 
 
+## Pilhas (02:03:13)
+- Pilhas: Introdução
+- Empilhar elemento (push)
+- Verificar se pilha está vazia
+- Espiar/Verificar elemento do topo (peek)
+- Desempilhar elemento (pop)
+- API Java: Stack
+- Empilha e desempilha
+- Pilhas par ou ímpar
+- Pilha de Livros
+- Stack de Livros
+- Desafio do Palíndromo
+- Desafio dos símbolos balanceados
+- Desafio conversão decimal-binário
+- Desafio Torre de Hanoi
+
+
 # Apontamentos
 
 **Objetos StringBuilder são como objetos String, exceto que eles podem ser modificados . Internamente, esses objetos são tratados como matrizes de comprimento variável que contêm uma sequência de caracteres. A qualquer momento, o comprimento e o conteúdo da sequência podem ser alterados por meio de invocações de métodos.**
