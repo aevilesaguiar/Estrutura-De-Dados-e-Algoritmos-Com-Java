@@ -5,13 +5,19 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 	protected T[] elementos; 
 	protected int tamanho;
 
+	@SuppressWarnings("unchecked")
 	public EstruturaEstatica(int capacidade){
-		this.elementos = (T[]) new Object[capacidade]; //solução do livro effective Java
+		this.elementos = (T[]) new Object[capacidade]; //solução do livro Java efetivo - 
 		this.tamanho = 0;
 	}
 	
 	public EstruturaEstatica(){
 		this(10);//passando a capacidade 10
+	}
+	
+	
+	public boolean estaVazia() {
+		return this.tamanho==0;
 	}
 	
 	//adiciona no final
@@ -44,7 +50,7 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 			return true;
 		}
 		
-		protected void aumentaCapacidade(){
+		private void aumentaCapacidade(){
 			if (this.tamanho == this.elementos.length){
 				T[] elementosNovos = (T[]) new Object[this.elementos.length * 2];
 				for (int i=0; i<this.elementos.length; i++){
