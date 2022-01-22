@@ -1,4 +1,4 @@
-# Estrutura de Dados com Java - Curso Loiane 
+# Estrutura de Dados com Java - Curso Loiane Groner 
 
 ## Vetores, Arrays e Listas 
 - Aula 01 - Introdução a Estrutura de Dados e Algoritmos✅ 
@@ -29,12 +29,12 @@
 - Aula 16 -Espiar/Verificar elemento do topo (peek)✅
 - Aula 17 -Desempilhar elemento (pop)✅
 - Aula 18 -API Java: Stack✅
-- Empilha e desempilha
-- Pilhas par ou ímpar
-- Pilha de Livros
-- Stack de Livros
-- Desafio do Palíndromo
-- Desafio dos símbolos balanceados
+- Empilha e desempilha✅
+- Pilhas par ou ímpar✅
+- Pilha de Livros✅
+- Stack de Livros✅
+- Desafio do Palíndromo✅
+- Desafio dos símbolos balanceados✅
 - Desafio conversão decimal-binário
 - Desafio Torre de Hanoi
 
@@ -91,12 +91,19 @@ Ex:
   
     
 ### Pilhas
-  
-  ![DiagramaDeClasse](https://user-images.githubusercontent.com/52088444/150648790-b9f85b6f-7f94-45f1-87e8-145986f17885.PNG)
+<img src="https://user-images.githubusercontent.com/52088444/150648790-b9f85b6f-7f94-45f1-87e8-145986f17885.PNG" width="45%"></img> 
 
   
   
-  https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.
+
   
 **A pilha possui um comportamento especial chamdo de LIFO(LAST IN FIRST OUT) ultimo elemento ao entrar , primeiro elemento a sair
-  ![image](https://user-images.githubusercontent.com/52088444/150649118-b8eded4f-8e80-4406-bf22-092088f7d96f.png)
+<img src="https://user-images.githubusercontent.com/52088444/150649118-b8eded4f-8e80-4406-bf22-092088f7d96f.png" width="45%"></img> 
+
+# Referencias
+
+[Estrutura de Dados com Java - Loiane Groner](https://loiane.training/continuar-curso/estrutura-de-dados)
+
+[Pilhas Fundamentos e Implementações da Estrutura em Java - DEVMEDIA]( https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.
+)
+ 
