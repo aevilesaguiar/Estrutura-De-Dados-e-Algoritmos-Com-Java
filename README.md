@@ -28,7 +28,7 @@
 - Aula 15 -Verificar se pilha está vazia✅
 - Aula 16 -Espiar/Verificar elemento do topo (peek)✅
 - Aula 17 -Desempilhar elemento (pop)✅
-- API Java: Stack
+- Aula 18 -API Java: Stack✅
 - Empilha e desempilha
 - Pilhas par ou ímpar
 - Pilha de Livros
