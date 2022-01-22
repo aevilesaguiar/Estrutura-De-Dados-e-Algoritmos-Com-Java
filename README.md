@@ -92,6 +92,9 @@ Ex:
     
 ### Pilhas
   
+  ![DiagramaDeClasse](https://user-images.githubusercontent.com/52088444/150648790-b9f85b6f-7f94-45f1-87e8-145986f17885.PNG)
+
+  
   
   https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.
   
