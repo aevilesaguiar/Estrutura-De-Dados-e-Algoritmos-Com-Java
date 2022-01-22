@@ -20,6 +20,7 @@ public class Aula17 {
 		System.out.println("Desempilhando elemento: "+pilha.desempilha());
 		
 		System.out.println(pilha);
+		
 		System.out.println("Desempilhando elemento: "+pilha.desempilha());
 		
 		System.out.println(pilha);
