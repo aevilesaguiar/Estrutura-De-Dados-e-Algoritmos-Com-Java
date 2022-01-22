@@ -11,9 +11,10 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 	}
 	
 	public EstruturaEstatica(){
-		this(10);
+		this(10);//passando a capacidade 10
 	}
 	
+	//adiciona no final
 	protected boolean adiciona(T elemento) {
 		this.aumentaCapacidade();
 		if (this.tamanho < this.elementos.length){
