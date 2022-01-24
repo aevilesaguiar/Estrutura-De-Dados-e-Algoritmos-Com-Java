@@ -89,8 +89,12 @@ Ex:
 
 ![819px-Java util Collection_hierarchy svg](https://user-images.githubusercontent.com/52088444/150176834-9cf2f3ee-0885-4a85-9b5d-9e00590a8d49.png)
   
+  ## Vetor,Arrays e Listas
+  
+<img src="https://user-images.githubusercontent.com/52088444/150829174-dbd16806-2cf0-49e2-9fc4-427883289028.png" width="45%"></img> 
+  
     
-### Pilhas
+## Pilhas
 <img src="https://user-images.githubusercontent.com/52088444/150648790-b9f85b6f-7f94-45f1-87e8-145986f17885.PNG" width="45%"></img> 
 
   
@@ -99,6 +103,15 @@ Ex:
   
 **A pilha possui um comportamento especial chamdo de LIFO(LAST IN FIRST OUT) ultimo elemento ao entrar , primeiro elemento a sair
 <img src="https://user-images.githubusercontent.com/52088444/150649118-b8eded4f-8e80-4406-bf22-092088f7d96f.png" width="45%"></img> 
+
+
+
+
+    
+## Filas(Queues)
+
+
+
 
 # Referencias
 
