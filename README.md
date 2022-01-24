@@ -125,6 +125,12 @@ Ex:
 
 <img src="https://user-images.githubusercontent.com/52088444/150829958-c93b8741-9f87-4aa7-a7ca-c574f533b6fe.png" width="45%"></img> 
 
+<img src="https://user-images.githubusercontent.com/52088444/150831221-2c27c6a6-7f53-479c-adfe-5df4654315ff.png" width="45%"></img> 
+
+
+## Todos os Diagramas utilizados 
+
+<img src="https://user-images.githubusercontent.com/52088444/150831799-4aa5ffce-cab5-459d-9674-5e2a4a293e77.png" width="90%"></img> 
 
 # Referencias
 
