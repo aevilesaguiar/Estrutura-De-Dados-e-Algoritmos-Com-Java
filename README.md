@@ -101,7 +101,7 @@ Ex:
   
 
   
-**A pilha possui um comportamento especial chamdo de LIFO(LAST IN FIRST OUT) ultimo elemento ao entrar , primeiro elemento a sair
+### A pilha possui um comportamento especial chamdo de LIFO(LAST IN FIRST OUT) ultimo elemento ao entrar , primeiro elemento a sair
 <img src="https://user-images.githubusercontent.com/52088444/150649118-b8eded4f-8e80-4406-bf22-092088f7d96f.png" width="45%"></img> 
 
 
@@ -110,7 +110,10 @@ Ex:
     
 ## Filas(Queues)
 
+### A fila possui um comportamento especial chamdo de FIFO(FIRST IN FIRST OUT) primeiro elemento a entrar , primeiro elemento a sair
 
+
+<img src="https://user-images.githubusercontent.com/52088444/150829958-c93b8741-9f87-4aa7-a7ca-c574f533b6fe.png" width="45%"></img> 
 
 
 # Referencias
