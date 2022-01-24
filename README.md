@@ -29,14 +29,24 @@
 - Aula 16 -Espiar/Verificar elemento do topo (peek)✅
 - Aula 17 -Desempilhar elemento (pop)✅
 - Aula 18 -API Java: Stack✅
-- Empilha e desempilha✅
-- Pilhas par ou ímpar✅
-- Pilha de Livros✅
-- Stack de Livros✅
-- Desafio do Palíndromo✅
-- Desafio dos símbolos balanceados✅
-- Desafio conversão decimal-binário
-- Desafio Torre de Hanoi
+- Exerc 01 Empilha e desempilha✅
+- Exerc 02 Pilhas par ou ímpar✅
+- Exerc 03 Pilha de Livros✅
+- Exerc 04 Stack de Livros✅
+- Exerc 05 Desafio do Palíndromo✅
+- Exerc 06 Desafio dos símbolos balanceados✅
+- Exerc 07 Desafio conversão decimal-binário✅
+- Exerc 08 Desafio Torre de Hanoi✅
+
+
+## Filas 
+- Aula 19 Filas: Introdução✅
+- Aula 20 Enfileirar (adicionar) elemento (enqueue)✅
+- Aula 21 Espiar/Verificar elemento início da fila (peek)✅
+- Aula 22 Desenfileirar (remover) elemento da fila (dequeue)✅
+- Aula 23 API Java: Queue✅
+- Aula 24 Filas com Prioridade✅
+- Aula 25 API Java: PriorityQueue✅
 
 
 # Apontamentos
