@@ -1,6 +1,6 @@
 package br.com.aeviles.estrututuradados.fila.teste;
 
-public class Classe1 implements Interface1{
+public class Classe1 {
 	
 	public void teste(){
 		
