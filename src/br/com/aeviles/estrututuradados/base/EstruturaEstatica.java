@@ -7,7 +7,7 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 
 	@SuppressWarnings("unchecked")
 	public EstruturaEstatica(int capacidade){
-		this.elementos = (T[]) new Object[capacidade]; //solução do livro Java efetivo - 
+		this.elementos = (T[]) new Object[capacidade]; //soluÃ§Ã£o do livro Java efetivo - 
 		this.tamanho = 0;
 	}
 	
@@ -31,11 +31,11 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 		return false;
 	}
 	
-	//Adiciona em qualquer posição
+	//Adiciona em qualquer posiÃ§Ã£o
 	protected boolean adiciona(int posicao, T elemento){
 			
 			if (!(posicao >= 0 && posicao < tamanho)){
-				throw new IllegalArgumentException("Posição inválida");
+				throw new IllegalArgumentException("PosiÃ§Ã£o invÃ¡lida");
 			}
 			
 			this.aumentaCapacidade();
@@ -50,6 +50,18 @@ public class EstruturaEstatica<T> {//T significa o tipo da classe
 			return true;
 		}
 		
+	
+
+	protected void remove(int posicao){
+		if (!(posicao >= 0 && posicao < tamanho)){
+			throw new IllegalArgumentException("Posicao invaÌlida");
+		}
+		for (int i=posicao; i<tamanho-1; i++){
+			elementos[i] = elementos[i+1];
+		}
+		tamanho--;
+	}
+	
 		private void aumentaCapacidade(){
 			if (this.tamanho == this.elementos.length){
 				T[] elementosNovos = (T[]) new Object[this.elementos.length * 2];
