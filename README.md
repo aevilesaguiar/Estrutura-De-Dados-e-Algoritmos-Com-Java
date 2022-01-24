@@ -104,6 +104,8 @@ Ex:
 
 [Estrutura de Dados com Java - Loiane Groner](https://loiane.training/continuar-curso/estrutura-de-dados)
 
-[Pilhas Fundamentos e Implementações da Estrutura em Java - DEVMEDIA]( https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.
-)
- 
+[Pilhas Fundamentos e Implementações da Estrutura em Java - DEVMEDIA]( https://www.devmedia.com.br/pilhas-fundamentos-e-implementacao-da-estrutura-em-java/28241#:~:text=A%20estrutura%20da%20pilha%2C%20segundo,%2Dse%20remover%20o%20%C3%BAltimo%E2%80%9D.)
+
+ [Torre de Hanoi](  https://educador.brasilescola.uol.com.br/estrategias-ensino/torre-hanoi.html.)
+
+
