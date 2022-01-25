@@ -57,7 +57,7 @@
 - Aula 26 Listas encadeada 02 tamanho da lista✅
 
 
-<img src="https://user-images.githubusercontent.com/52088444/150993145-6103ff36-7e39-437d-9e3d-360ef3249c41.png" width="45%"></img> 
+
 
 
 # Apontamentos
@@ -146,6 +146,8 @@ Ex:
 - Ponteiros
 - Referencia ao primeiro elemento da lista
 - Cada nó faz referencia ao próximo elemento
+
+<img src="https://user-images.githubusercontent.com/52088444/150993145-6103ff36-7e39-437d-9e3d-360ef3249c41.png" width="90%"></img> 
 
 
 ## Todos os Diagramas utilizados 
