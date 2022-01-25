@@ -57,6 +57,9 @@
 - Aula 26 Listas encadeada 02 tamanho da lista✅
 
 
+<img src="https://user-images.githubusercontent.com/52088444/150993145-6103ff36-7e39-437d-9e3d-360ef3249c41.png" width="45%"></img> 
+
+
 # Apontamentos
 
 **Objetos StringBuilder são como objetos String, exceto que eles podem ser modificados . Internamente, esses objetos são tratados como matrizes de comprimento variável que contêm uma sequência de caracteres. A qualquer momento, o comprimento e o conteúdo da sequência podem ser alterados por meio de invocações de métodos.**
