@@ -47,6 +47,14 @@
 - Aula 23 API Java: Queue✅
 - Aula 24 Filas com Prioridade✅
 - Aula 25 API Java: PriorityQueue✅
+- Exerc 01 Fila de documentos impressos✅
+- Exerc 02 Distribuição de senhas✅
+- Exerc 03 Sistemas de senhas de um pronto Socorro✅
+- Exerc 04 Brincadeira Batata Quente✅
+
+## Listas Encadeadas 
+- Aula 25 Listas encadeada (Lista Ligada)✅
+- Aula 26 Listas encadeada 02 tamanho da lista✅
 
 
 # Apontamentos
@@ -126,6 +134,15 @@ Ex:
 <img src="https://user-images.githubusercontent.com/52088444/150829958-c93b8741-9f87-4aa7-a7ca-c574f533b6fe.png" width="45%"></img> 
 
 <img src="https://user-images.githubusercontent.com/52088444/150831221-2c27c6a6-7f53-479c-adfe-5df4654315ff.png" width="45%"></img> 
+
+
+## Lista encadeada(Lista Ligada)
+
+- Estrutura Dinâmica
+- Cada elemento é um nó (célula)
+- Ponteiros
+- Referencia ao primeiro elemento da lista
+- Cada nó faz referencia ao próximo elemento
 
 
 ## Todos os Diagramas utilizados 
