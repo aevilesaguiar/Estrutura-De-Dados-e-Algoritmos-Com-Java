@@ -154,6 +154,23 @@ Ex:
 
 <img src="https://user-images.githubusercontent.com/52088444/150831799-4aa5ffce-cab5-459d-9674-5e2a4a293e77.png" width="90%"></img> 
 
+
+## Mentoria
+
+ - Array e Vector são as mesmas coisas o que diferencia são as dimensões;
+- Interface é um contrato que você pode esperar comportamentos de uma funcionalidade;
+
+https://blog.mandic.com.br/artigos/java-garbage-collection-melhores-praticas-tutoriais-e-muito-mais/
+
+- Boas práticas:, pesquisar
+  - solid
+  - dry
+  - https://refactoring.guru/pt-br
+  - https://refactoring.guru/pt-br/design-patterns
+  - https://refactoring.guru/refactoring
+  - https://en.wikipedia.org/wiki/Pair_programming#:~:text=Pair%20programming%20is%20an%20agile,as%20it%20is%20typed%20in.
+
+  
 # Referencias
 
 [Estrutura de Dados com Java - Loiane Groner](https://loiane.training/continuar-curso/estrutura-de-dados)
