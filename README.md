@@ -159,6 +159,7 @@ Ex:
 
  - Array e Vector são as mesmas coisas o que diferencia são as dimensões;
 - Interface é um contrato que você pode esperar comportamentos de uma funcionalidade;
+-  uma classe pode implementar varias interfaces mas so pode herdar uma classe abstrata
 
 https://blog.mandic.com.br/artigos/java-garbage-collection-melhores-praticas-tutoriais-e-muito-mais/
 
